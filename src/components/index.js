@@ -6,7 +6,7 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
-import Scroller from "./scroller";
+import Scroller from "./Scroller";
 import Blogs from "./Blog";
 
 export {
