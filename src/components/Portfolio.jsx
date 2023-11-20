@@ -7,10 +7,10 @@ const Portfolio = () => {
   return (
     <div className="relative overflow-hidden bg-cover latestProjectsBg bg-left">
       <section className="text-center m-20">
-        <h2 className="text-[#4762E4] text-lg md:text-2xl font-medium mb-4 uppercase">
+        <h2 className="text-[#4762E4] text-sm sm:text-lg md:text-2xl font-medium mb-4 uppercase">
           Portfolio
         </h2>
-        <h1 className="font-poppins select-none hover:text-dimWhite transition-colors text-white text-3xl sm:text-4xl md:text-6xl font-bold mb-6">
+        <h1 className="font-poppins select-none hover:text-dimWhite transition-colors text-white text-[18px] sm:text-4xl md:text-6xl font-bold mb-6">
           Our Latest Projects
         </h1>
 

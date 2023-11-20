@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 const Stats = () => {
   return (
-    <section className="relative border rounded-xl w-full max-w-[400px] xs:max-w-[410px] sm:max-w-[590px] mx-auto md:max-w-[580px] lg:max-w-[750px] mt-10 overflow-hidden">
+    <section className="relative border rounded-xl flex-wrap sm:flex-nowrap  w-full max-w-[390px] xs:max-w-[410px] sm:max-w-[590px] mx-auto md:max-w-[580px] lg:max-w-[750px] mt-10 overflow-hidden">
       <div
         className={`${styles.flexCenter} flex-row flex-wrap py-3 backdrop-blur-lg`}
       >
@@ -13,7 +13,7 @@ const Stats = () => {
           <div
             key={stat.id}
             className={`items-center m-3 space-y-4 ${
-              index !== stats.length - 1 ? "border-r pr-5 sm:pr-10" : ""
+              index !== stats.length - 1 ? "sm:border-r pr-5 sm:pr-10" : ""
             }`}
           >
             <h4 className="font-poppins font-semibold text-[30px] sm:text-[60px] leading-[30px] sm:leading-[60px] text-white">
