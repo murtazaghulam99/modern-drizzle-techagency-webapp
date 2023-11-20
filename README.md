@@ -32,7 +32,7 @@ npm install<br/>
 Start the development server:<br/>
 <br/><br/>
 npm run dev<br/>
-Open your browser and visit http://localhost:3000 to see the magic happen!<br/>
+Open your browser and visit http://localhost:5173 to see the magic happen!<br/>
 <br/><br/>
 Contributing<br/>
 We welcome contributions from the community! Whether you're a seasoned developer or just getting started, check out our Contribution Guidelines to learn how you can contribute to making our web page even better.<br/>
