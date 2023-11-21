@@ -21,7 +21,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`${styles.flexStart} bg-cover bgComponent bg-center`}>
+    <div className={`${styles.flexStart} bg-cover bgHero bg-center`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
@@ -32,7 +32,7 @@ const App = () => (
     <Business />
     <Testimonials />
     <div
-      className={`bg-primary ${styles.flexStart} bg-cover bgComponent bg-right-center`}
+      className={`bg-black ${styles.flexStart} bg-cover bgComponent bg-right-center`}
     >
       <div className={`${styles.boxWidth}`}>
         <Blog />

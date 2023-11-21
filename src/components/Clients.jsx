@@ -5,7 +5,9 @@ const Clients = () => (
   <section
     className={`${styles.flexCenter} w-full h-[280px] md:h-[160px] bg-[#242830] rounded-md`}
   >
-    <div className={`${styles.flexCenter} space-x-5 space-y-5 md:flex-nowrap flex-wrap w-full`}>
+    <div
+      className={`${styles.flexCenter} space-x-5 md:space-y-0 space-y-5  md:flex-nowrap flex-wrap w-full`}
+    >
       {clients.map((clients) => (
         <div
           key={clients.id}

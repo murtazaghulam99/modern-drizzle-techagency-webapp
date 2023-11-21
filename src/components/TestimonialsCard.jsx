@@ -18,10 +18,10 @@ const TestimonialsCard = ({ content, name, rating, company, img }) => (
     <div className="md:flex-1">
       <img
         src={rating}
-        className="w-full max-w-[100px] md:max-w-[160px] mx-auto md:mx-0 mt-4 md:mt-0 mb-4 md:mb-0"
+        className="w-full max-w-[140px] md:max-w-[160px] mx-auto md:mx-0 mt-4 md:mt-0 mb-4 md:mb-0"
         alt=""
       />
-      <p className="font-poppins font-normal text-[16px] md:text-start text-center leading-[24px] md:leading-[32px] text-white my-4">
+      <p className="font-light text-[16px] md:text-start text-center leading-[24px] md:leading-[32px] text-white my-4">
         {content}
       </p>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center">

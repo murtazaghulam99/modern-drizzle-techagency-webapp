@@ -32,7 +32,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <div className="px-5 bg-cover whychooseusBg">
+    <div className="px-5 bg-cover whychooseusBg bg-black bg-center">
       <section id="features" className={layout.section}>
         <div className={`${layout.sectionInfo} ${styles.flexCenter}`}>
           <img

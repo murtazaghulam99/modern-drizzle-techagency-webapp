@@ -5,7 +5,7 @@ import { portfolioImages } from "../constants";
 
 const Portfolio = () => {
   return (
-    <div className="relative overflow-hidden bg-cover latestProjectsBg bg-left">
+    <div className="relative overflow-hidden bg-cover latestProjectsBg bg-left bg-black">
       <section className="text-center m-20">
         <h2 className="text-[#4762E4] text-sm sm:text-lg md:text-2xl font-medium mb-4 uppercase">
           Portfolio
