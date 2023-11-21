@@ -17,16 +17,16 @@ const BlogsCard = ({ content, author, title, tags, date, img }) => {
       <div className="md:w-[60%] lg:w-[80%] hover-effect">
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
           <div className="flex space-x-5 items-center md:w-[70%] mt-3">
-            <h4 className="font-poppins font-normal text-[14px] leading-[32px] text-[#4762E4]">
+            <h4 className="font-poppins font-medium text-[14px] leading-[32px] text-[#4762E4]">
               {author}
             </h4>
-            <p className="font-poppins font-normal text-[14px] leading-[20px] text-[#4762E4]">
+            <p className="font-poppins font-light text-[12px] leading-[20px] text-[#4762E4]">
               {date}
             </p>
           </div>
         </div>
         <div className="flex justify-between items-center">
-          <h2 className="font-poppins font-normal text-[14px] md:text-[20px] leading-[32px] text-white mt-2">
+          <h2 className="font-poppins font-normal text-[16px] md:text-[20px] leading-[32px] text-white mt-2">
             {title}
           </h2>
           <img src={arrowUp} width={30} height={30} alt="" />

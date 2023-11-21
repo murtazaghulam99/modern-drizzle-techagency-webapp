@@ -32,7 +32,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <div className="px-5 bg-cover bgComponent bg-left-top">
+    <div className="px-5 bg-cover whychooseusBg">
       <section id="features" className={layout.section}>
         <div className={`${layout.sectionInfo} ${styles.flexCenter}`}>
           <img
@@ -44,8 +44,8 @@ const Business = () => {
 
         <div className={`${layout.sectionImg} ${styles.flexCenter} flex-col`}>
           <div className="pl-3 mb-3">
-            <h1 className="font-poppins font-medium text-xl text-[#4762E4]">
-              WHY CHOOSE US
+            <h1 className="font-poppins uppercase font-medium text-xl text-[#4762E4]">
+              why choose us
             </h1>
             <h2 className="font-poppins font-semibold select-none hover:text-dimWhite transition-colors text-[32px] md:text-[48px] text-white">
               Creating Beautiful <br /> Design based on

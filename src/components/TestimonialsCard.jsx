@@ -8,7 +8,7 @@ const TestimonialsCard = ({ content, name, rating, company, img }) => (
     }}
     onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
     onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
-    className="flex flex-col space-x-0 md:space-x-5 md:flex-row space-y-5 md:space-y-0 items-center px-4 py-8 rounded-lg max-w-[420px] md:max-w-[620px] md:mx-auto testimonials-card cursor-pointer"
+    className="flex flex-col space-x-0 md:space-x-5 md:flex-row space-y-5 md:space-y-0 items-center px-4 py-6 rounded-lg max-w-[420px] md:max-w-[620px] md:mx-auto testimonials-card cursor-pointer"
   >
     <img
       src={img}

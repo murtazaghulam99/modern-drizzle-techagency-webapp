@@ -5,18 +5,18 @@ import CountUp from "react-countup";
 
 const Stats = () => {
   return (
-    <section className="relative border rounded-xl flex-wrap sm:flex-nowrap  w-full max-w-[390px] xs:max-w-[410px] sm:max-w-[590px] mx-auto md:max-w-[580px] lg:max-w-[750px] mt-10 overflow-hidden">
+    <section className="relative border rounded-md sm:rounded-xl flex-wrap sm:flex-nowrap w-full max-w-[390px] xs:max-w-[410px] sm:max-w-[590px] mx-auto md:max-w-[580px] lg:max-w-[750px] mt-10 overflow-hidden">
       <div
-        className={`${styles.flexCenter} flex-row flex-wrap py-3 backdrop-blur-lg`}
+        className={`${styles.flexCenter} flex-col sm:flex-row flex-wrap py-3 backdrop-blur-lg`}
       >
         {stats.map((stat, index) => (
           <div
             key={stat.id}
-            className={`items-center m-3 space-y-4 ${
-              index !== stats.length - 1 ? "sm:border-r pr-5 sm:pr-10" : ""
+            className={`items-center m-3 space-y-2 ${
+              index !== stats.length - 1 ? "md:border-r pr-5 sm:pr-10" : ""
             }`}
           >
-            <h4 className="font-poppins font-semibold text-[30px] sm:text-[60px] leading-[30px] sm:leading-[60px] text-white">
+            <h4 className="font-poppins font-semibold text-[40px] sm:text-[60px] leading-[30px] sm:leading-[60px] text-white">
               <CountUp
                 end={parseFloat(stat.value)}
                 duration={6}

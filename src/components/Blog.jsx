@@ -7,7 +7,7 @@ import BlogsCard from "./BlogsCard";
 const Blogs = () => (
   <section className="relative h-[800px] px-3 mb-10">
     <div className="absolute z-0 w-60 h-60 -right-1/2 rounded-full" />
-    <section className="m-10 relative overflow-hidden">
+    <section className="ml-1 sm:text-left text-center sm:ml-16 mt-14 relative overflow-hidden">
       <h2 className="text-[#4762E4] text-xl md:text-3xl font-medium mb-4 uppercase">
         Blog
       </h2>
@@ -42,7 +42,7 @@ const Blogs = () => (
         }}
       >
         {blogs.map((card) => (
-          <SwiperSlide key={card.id}>
+          <SwiperSlide className="px-2 py-4" key={card.id}>
             <BlogsCard {...card} />
           </SwiperSlide>
         ))}

@@ -10,11 +10,11 @@ const Portfolio = () => {
         <h2 className="text-[#4762E4] text-sm sm:text-lg md:text-2xl font-medium mb-4 uppercase">
           Portfolio
         </h2>
-        <h1 className="font-poppins select-none hover:text-dimWhite transition-colors text-white text-[18px] sm:text-4xl md:text-6xl font-bold mb-6">
+        <h1 className="font-poppins select-none hover:text-dimWhite transition-colors text-white text-[28px] sm:text-4xl md:text-6xl font-bold mb-6">
           Our Latest Projects
         </h1>
 
-        <div className="relative cursor-pointer py-7">
+        <div className="relative cursor-pointer py-3">
           <Swiper
             slidesPerView={1}
             slidesPerColumn={2}
@@ -38,7 +38,7 @@ const Portfolio = () => {
             }}
           >
             {portfolioImages.map((image) => (
-              <SwiperSlide key={image.id}>
+              <SwiperSlide className="px-0.5" key={image.id}>
                 <div
                   className="relative overflow-hidden group"
                   style={{
@@ -85,7 +85,7 @@ const Portfolio = () => {
             }}
           >
             {portfolioImages.map((image) => (
-              <SwiperSlide key={image.id}>
+              <SwiperSlide className="px-0.5" key={image.id}>
                 <div
                   className="relative overflow-hidden group"
                   style={{

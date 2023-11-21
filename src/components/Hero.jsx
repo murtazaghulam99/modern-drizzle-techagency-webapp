@@ -10,7 +10,7 @@ const Hero = () => {
       <p className="text-[#4762E4] hover:text-[#4762E4]/80 transition-colors font-poppins font-normal text-[16px] md:text-[20px] lg:md:text-[24px]">
         DRIZZLE CREATIVE AGENCY
       </p>
-      <h1 className="text-white hover:text-dimWhite transition-colors font-poppins font-bold text-[34px] sm:text-[52px] md:text-[84px] mt-4">
+      <h1 className="text-white hover:text-dimWhite transition-colors font-poppins font-bold text-[30px] xs:text-[40px] sm:text-[52px] md:text-[84px] mt-4">
         Digital Agency <br />
         With Solid Design
       </h1>
