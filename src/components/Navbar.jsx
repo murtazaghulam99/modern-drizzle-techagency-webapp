@@ -53,13 +53,13 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer transition-colors hover:bg-white/10 rounded-md text-[20px]
+                className={`font-poppins font-normal py-1 px-4 cursor-pointer transition-colors hover:bg-white/10 rounded-md text-[20px]
         ${index === navLinks.length - 1 ? "mb-0" : "mb-4"} text-white`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <div className="items-center space-y-7">
+            <div className="items-center space-y-7 space-x-2">
               <button className="text-white  font-poppins transition-colors hover:bg-white/10 rounded-md px-4 py-2">
                 Sign In
               </button>
