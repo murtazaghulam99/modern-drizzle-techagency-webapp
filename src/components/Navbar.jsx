@@ -12,7 +12,7 @@ const Navbar = () => {
         <img
           src={logo}
           alt="drizzle"
-          className="w-[138px] h-[38px] cursor-pointer"
+          className="w-[138px] h-[38px] cursor-pointer mr-20"
         />
       </a>
       <ul className="list-none md:flex hidden justify-center items-center flex-1">

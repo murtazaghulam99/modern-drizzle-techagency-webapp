@@ -3,10 +3,12 @@ import styles from "../style";
 
 const Clients = () => (
   <section
-    className={`${styles.flexCenter} w-full h-[280px] md:h-[160px] bg-[#242830] rounded-md`}
+    className={`${styles.flexCenter} w-full h-[480px] md:h-[160px] bg-[#242830] rounded-md`}
   >
     <div
-      className={`${styles.flexCenter} space-x-5 md:space-y-0 space-y-5  md:flex-nowrap flex-wrap w-full`}
+      className={`${
+        styles.flexCenter
+      } ${"flex-col md:flex-row"} space-x-5 md:space-y-0 space-y-10 md:flex-nowrap flex-wrap w-full`}
     >
       {clients.map((clients) => (
         <div
@@ -16,7 +18,7 @@ const Clients = () => (
           <img
             src={clients.logo}
             alt="client"
-            className="sm:w-[152px] w-[130px] object-contain"
+            className="w-[150px] object-contain"
             style={{
               transition: "transform 0.3s ease",
               transform: "scale(1)",

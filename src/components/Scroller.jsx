@@ -21,7 +21,7 @@ const Scroller = () => {
             className="scroller-item items-center space-x-6 p-3 select-none"
           >
             <img src={union} height={30} width={30} alt="" />
-            <h1 className="scroller-text hover:text-dimWhite">
+            <h1 className="hover:text-dimWhite">
               {service.name}
             </h1>
           </div>

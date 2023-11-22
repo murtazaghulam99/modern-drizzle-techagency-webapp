@@ -5,8 +5,8 @@ import { portfolioImages } from "../constants";
 
 const Portfolio = () => {
   return (
-    <div className="relative overflow-hidden bg-cover latestProjectsBg bg-left bg-black">
-      <section className="text-center m-20">
+    <div className="relative overflow-hidden md:h-[1000px] h-[880px] bg-cover latestProjectsBg bg-left bg-black py-10">
+      <section className="text-center">
         <h2 className="text-[#4762E4] text-sm sm:text-lg md:text-2xl font-medium mb-4 uppercase">
           Portfolio
         </h2>
@@ -14,7 +14,7 @@ const Portfolio = () => {
           Our Latest Projects
         </h1>
 
-        <div className="relative cursor-pointer py-3">
+        <div className="relative cursor-pointer pt-10 px-1.5">
           <Swiper
             slidesPerView={1}
             slidesPerColumn={2}
@@ -102,7 +102,7 @@ const Portfolio = () => {
                   <img
                     src={image.img}
                     alt={`portfolio-${image.id}`}
-                    className="w-full object-cover mb-2"
+                    className="w-full h-auto object-cover"
                   />
                   <div className="overlay absolute inset-0 bg-black group-hover:opacity-20 opacity-0 transition-opacity duration-300"></div>
                 </div>
@@ -111,7 +111,7 @@ const Portfolio = () => {
           </Swiper>
         </div>
 
-        <button className="bg-[#7A62F9] hover:bg-[#7A62F9]/80 transition-colors text-white py-2.5 md:py-4 px-6 md:px-12 rounded-md mt-6">
+        <button className="bg-[#7A62F9] hover:bg-[#7A62F9]/80 transition-colors text-white py-2.5 md:py-4 px-6 md:px-12 rounded-md mt-12">
           View More
         </button>
       </section>
